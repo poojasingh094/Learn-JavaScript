@@ -29,3 +29,25 @@ document.getElementById("submit").onclick = function () {
     console.log(username); // Logs the value to the console
     document.getElementById("h2").textContent = username; // Displays the value in the element with ID 'h2'
 }
+
+//Type conversion (when you accept user Input, it is a string data type)
+let age = window.prompt("How old are u?");
+age = Number(age);
+age = age + 1;
+console.log(age, typeof age);
+
+let x = "pizza";//0/""/not assign any value, check for these
+let y = "pizza";
+let z = "pizza";
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+// capitalizing your constants is a common convention and is usually done for any value that is intended to remain constant throughout the program
+const PI = 3.14;
+
+
+
