@@ -2,6 +2,7 @@ body{
     font-family: 'Segoe UI', sans-serif;
     font-size: 1em;
 }
+/* CSS for index1.js */
 #count{
     display: block;
     text-align: center;
@@ -20,9 +21,12 @@ body{
 .button:hover{
     background-color: blueviolet;
 }
+/* CSS for index2.js */
 #btn{
     font-size: 1.5em;
     padding: 5px 10px;
     border-radius: 10px;
 }
-    
+#mySubmit{
+    font-size: 1em;
+}
