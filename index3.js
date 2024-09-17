@@ -33,3 +33,32 @@ switch (true) {
         grade = "F";
 }
 console.log(grade);
+
+//string methods 
+
+let userName ="  Pooja  ";
+console.log(userName.charAt(0)); 
+console.log(userName.indexOf("j"));//lastIndexOf in case of repeated char
+console.log(userName.length);
+console.log(userName.trim());
+console.log(userName.toUpperCase());
+
+let result = userName.startsWith("");//endsWith, includes
+console.log(result);
+
+let phoneNo="123-456-7890";
+phoneNo=phoneNo.replaceAll("-","/");
+console.log(phoneNo);
+
+//string slicing=creating substring from portion of another string
+const fullName = "Pooja Singh";
+
+// let firstName = fullName.slice(0,5);//5 is exclusive
+// console.log(firstName);
+// lastChar= fullName.slice(-1);//lastChar=slice(0,1)
+// console.log(lastChar);
+
+let firstName =fullName.slice(0, fullName.indexOf(" "));
+let lastName = fullName.slice(fullName.indexOf(" ")+1);
+console.log(firstName);
+console.log(lastName);
