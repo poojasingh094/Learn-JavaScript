@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+}
+/* CSS for index6.js */
+h1{
+    color: rgb(0, 68, 128);
+}
+form{
+    background-color: lightgray;
+    text-align: center;
+    max-width: 320px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px ;
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(49, 0, 128);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: green;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+} 
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
