@@ -32,3 +32,38 @@ while(running){
         }     
     }
 }
+
+// function
+function happyBirthday(username, age){
+    console.log(`Happy Birthday ${username} you are ${age} year old now!`);
+}
+
+happyBirthday("Pooja", 20);
+
+function add(x, y){
+    let result =x+y;
+    return result;
+}
+console.log(add(3, 5));
+
+function isEven(number){
+    return number%2 === 0? true : false;
+    // if(number%2 === 0){
+    //     return true;
+    // }
+    // else {
+    //     return false;
+    // }
+}
+console.log(isEven(4));
+
+function isValidEmail(email){
+return email.includes("@") ? true : false;
+    // if (email.includes("@")){
+    //     return true;
+    // }
+    // else{
+    //     return false;
+    // }
+}
+console.log(isValidEmail("pooja@G.com"));
