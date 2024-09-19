@@ -43,6 +43,8 @@ function getAverage(...numbers){
    return result / numbers.length;
 }
 
+console.log(getAverage(1,2,3));
+
 function combineStrings(...strings){
    return strings.join(" ");
 }
